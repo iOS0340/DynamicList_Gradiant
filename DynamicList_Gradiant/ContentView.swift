@@ -25,7 +25,7 @@ struct ContentView: View {
                                 .offset(y: -distance / 1.35)
                                 .brightness(-distance / (UIScreen.current?.bounds.height)!)
                                 .blur(radius: -distance / 50)
-                                                }
+                    }
                 }
             }
             .padding()
